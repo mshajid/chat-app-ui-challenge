@@ -5,141 +5,149 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yoohoo Chat App</title>
 
+    <!-- * TailwindCSS output compiled CSS is here * -->
     <link rel="stylesheet" href="./assets/css/output.css">
 </head>
 <body>
-    <div class="p-10 bg-slate-800 mb-5 flex flex-col justify-center items-center gap-y-2">
-        <h1 class="text-center font-semibold text-2xl text-white">Yoohoo Chat App (UI Challenge)</h1>
-        <span class="text-white font-light" >We've to create WhatsApp UI with our own imaginary App using HTML / Tailwind CSS 
-            <a href="https://github.com/mshajid/chat-app-ui-challenge" target="_blank" class="p-1 rounded-md bg-cyan-700 hover:bg-cyan-800 ml-2">Source code</a> 
-        </span>
-    </div>
-
-    <main class="max-w-md mx-auto block">
-        <section class="p-5 bg-cyan-950 flex justify-between items-center">
-            <div>
-                <h4 class="bg-cyan-700 p-3 rounded-md text-white">YooHoo Chat</h4>
-            </div>
-            <div class="flex justify-between gap-x-5">
-                <svg class="cursor-pointer" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="#fff" d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5A6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5S14 7.01 14 9.5S11.99 14 9.5 14z"/></svg>
-    
-                <svg class="cursor-pointer" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="#fff" d="M12 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2a2 2 0 0 1 2-2m0-6a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2a2 2 0 0 1 2-2m0-6a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2a2 2 0 0 1 2-2Z"/></svg>
-            </div>
-        </section>
-    
-        <section class="p-5 bg-cyan-950 flex flex-1 justify-between items-center">
-            <div>
-                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="white" d="M12 18q2.075 0 3.538-1.462Q17 15.075 17 13q0-2.075-1.462-3.538Q14.075 8 12 8Q9.925 8 8.463 9.462Q7 10.925 7 13q0 2.075 1.463 3.538Q9.925 18 12 18Zm0-2q-1.25 0-2.125-.875T9 13q0-1.25.875-2.125T12 10q1.25 0 2.125.875T15 13q0 1.25-.875 2.125T12 16Zm6-6q.425 0 .712-.288Q19 9.425 19 9t-.288-.713Q18.425 8 18 8t-.712.287Q17 8.575 17 9t.288.712Q17.575 10 18 10ZM4 21q-.825 0-1.412-.587Q2 19.825 2 19V7q0-.825.588-1.412Q3.175 5 4 5h3.15L8.7 3.325q.15-.15.337-.238Q9.225 3 9.425 3h5.15q.2 0 .388.087q.187.088.337.238L16.85 5H20q.825 0 1.413.588Q22 6.175 22 7v12q0 .825-.587 1.413Q20.825 21 20 21Z"/></svg>
-            </div>
-    
-            <div class="flex items-center flex-1 justify-around text-white">
-                <span class="uppercase font-medium relative">Chats
-                    <span class="bg-cyan-800 py-0.5 px-2 rounded-md text-cyan-100 text-xs ml-1">10</span>
-                    <div class="absolute top-10 h-1 w-full bg-cyan-100"></div>
-                </span>
-                <span class="uppercase font-semibold cursor-pointer">Updates</span>
-                <span class="uppercase font-semibold cursor-pointer">Calls</span>
-            </div>
-        </section>
-    
-        <section class="bg-gray-100 p-5 flex justify-start items-center gap-x-4 hover: cursor-pointer hover:bg-cyan-900/10">
-            <div>
-                <img class="rounded-full ring-offset-2 ring-2 ring-cyan-800" src="https://ui-avatars.com/api/?name=Shajid&background=random&color=fff">
-            </div>
-    
-            <div class="flex flex-col flex-1">
-                <span class="font-bold text-lg">Anbu</span>
-                <span class="font-thin text-sm">May god bless y'all for the next project in....</span>
-            </div>
-    
-            <div class="flex flex-col items-center gap-y-1">
-                <span class="text-xs text-cyan-950 font-semibold">9:25 pm</span>
-                <span class="bg-cyan-800 py-1 px-2 rounded-md text-cyan-100 text-xs font-medium">2</span>
-            </div>
-        </section>
-
-        <section class="bg-gray-100 p-5 flex justify-start items-center gap-x-4 hover: cursor-pointer hover:bg-cyan-900/10">
-            <div>
-                <img class="rounded-full" src="https://ui-avatars.com/api/?name=Shajid&background=random&color=fff">
-            </div>
-    
-            <div class="flex flex-col flex-1">
-                <span class="font-bold text-lg">Full Stack Engineers</span>
-                <span class="font-bold text-sm text-green-600">~ Vasan & Rosini typing here...</span>
-            </div>
-    
-            <div class="flex flex-col items-center gap-y-1">
-                <span class="text-xs text-cyan-950 font-semibold">12.15 pm</span>
-                <span class="bg-cyan-800 py-1 px-2 rounded-md text-cyan-100 text-xs font-medium">10</span>
-            </div>
-        </section>
-
-        <section class="bg-gray-100 p-5 flex justify-start items-center gap-x-4 hover: cursor-pointer hover:bg-cyan-900/10">
-            <div>
-                <img class="rounded-full ring-offset-2 ring-2 ring-cyan-800" src="https://ui-avatars.com/api/?name=Shajid&background=random&color=fff">
-            </div>
-    
-            <div class="flex flex-col flex-1">
-                <span class="font-bold text-lg">Interns Gang 🚀</span>
-                <span class="font-thin text-sm">Mushkir: 😂😂😂😂</span>
-            </div>
-    
-            <div class="flex flex-col items-center gap-y-1">
-                <span class="text-xs text-cyan-950 font-semibold">12.15 pm</span>
-                <span class="bg-cyan-800 py-1 px-2 rounded-md text-cyan-100 text-xs font-medium">10</span>
-            </div>
-        </section>
-
-        <section class="bg-gray-100 p-5 flex justify-start items-center gap-x-4 hover: cursor-pointer hover:bg-cyan-900/10">
-            <div>
-                <img class="rounded-full ring-offset-2 ring-2 ring-cyan-800" src="https://ui-avatars.com/api/?name=Shajid&background=random&color=fff">
-            </div>
-    
-            <div class="flex flex-col flex-1">
-                <span class="font-bold text-lg">Abirami</span>
-                <div class="flex items-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="blue" d="m10 16.4l-4-4L7.4 11l2.6 2.6L16.6 7L18 8.4l-8 8Z"/></svg>
-                    <span class="font-thin text-sm">Howdy? Hope y'all good?</span>
+    <main>
+        <div class="p-10 bg-slate-800 mb-5 flex flex-col justify-center items-center gap-y-2">
+            <h1 class="text-center font-semibold text-4xl text-red-100">Yoohoo Chat App (UI Challenge)</h1>
+            <span class="text-white font-light" >We've to create WhatsApp UI with our own imaginary App using HTML / Tailwind CSS 
+                <a href="https://github.com/mshajid/chat-app-ui-challenge" target="_blank" class="p-1 rounded-md bg-cyan-700 hover:bg-cyan-800 ml-2">Source code</a> 
+            </span>
+        </div>
+        
+        
+        <div class="max-w-md mx-auto block">
+            <!-- * First header starts here* -->
+            <section class="p-5 bg-cyan-950 flex justify-between items-center">
+                <div>
+                    <h4 title="Welcome to Yoohoo Chat" class="ring-2 ring-cyan-900/20 cursor-pointer ease-in-out duration-300 hover:ring-cyan-900 p-3 rounded-md text-white text-xl">YooHoo Chat</h4>
                 </div>
-            </div>
+                <div class="flex justify-between gap-x-5">
+                    <svg class="cursor-pointer" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="#fff" d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5A6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5S14 7.01 14 9.5S11.99 14 9.5 14z"/></svg>
+        
+                    <svg class="cursor-pointer" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="#fff" d="M12 16a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2a2 2 0 0 1 2-2m0-6a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2a2 2 0 0 1 2-2m0-6a2 2 0 0 1 2 2a2 2 0 0 1-2 2a2 2 0 0 1-2-2a2 2 0 0 1 2-2Z"/></svg>
+                </div>
+            </section>
+            <!-- * First header ends here* -->
+            
+            <!-- * Second header starts here* -->
+            <section class="p-5 bg-cyan-950 flex flex-1 justify-between items-center">
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="white" d="M12 18q2.075 0 3.538-1.462Q17 15.075 17 13q0-2.075-1.462-3.538Q14.075 8 12 8Q9.925 8 8.463 9.462Q7 10.925 7 13q0 2.075 1.463 3.538Q9.925 18 12 18Zm0-2q-1.25 0-2.125-.875T9 13q0-1.25.875-2.125T12 10q1.25 0 2.125.875T15 13q0 1.25-.875 2.125T12 16Zm6-6q.425 0 .712-.288Q19 9.425 19 9t-.288-.713Q18.425 8 18 8t-.712.287Q17 8.575 17 9t.288.712Q17.575 10 18 10ZM4 21q-.825 0-1.412-.587Q2 19.825 2 19V7q0-.825.588-1.412Q3.175 5 4 5h3.15L8.7 3.325q.15-.15.337-.238Q9.225 3 9.425 3h5.15q.2 0 .388.087q.187.088.337.238L16.85 5H20q.825 0 1.413.588Q22 6.175 22 7v12q0 .825-.587 1.413Q20.825 21 20 21Z"/></svg>
+                </div>
+        
+                <div class="flex items-center flex-1 justify-around text-white">
+                    <span class="font-medium relative">Chats
+                        <span class="bg-cyan-800 py-0.5 px-2 rounded-md text-cyan-100 text-xs ml-1">10+</span>
+                        <div class="absolute top-10 h-1 w-full bg-cyan-100"></div>
+                    </span>
+                    <span class="font-semibold cursor-pointer">Updates</span>
+                    <span class="font-semibold cursor-pointer">Calls</span>
+                </div>
+            </section>
+            <!-- * Second header ends here * -->
+        
+            <section class="bg-gray-100 p-5 flex justify-start items-center gap-x-4 hover: cursor-pointer hover:bg-cyan-900/10 ease-in-out duration-700">
+                <div>
+                    <img class="rounded-full ring-offset-2 ring-2 ring-cyan-800" src="https://ui-avatars.com/api/?name=Anbu&background=random&color=fff">
+                </div>
+        
+                <div class="flex flex-col flex-1">
+                    <span class="font-bold text-lg">Anbu</span>
+                    <span class="font-thin text-sm antialiased">May god bless y'all for the next project in....</span>
+                </div>
+        
+                <div class="flex flex-col items-center gap-y-1">
+                    <span class="text-xs text-cyan-950 font-semibold">9:25 pm</span>
+                    <span class="bg-cyan-800 py-1 px-2 rounded-md text-cyan-100 text-xs font-medium">2</span>
+                </div>
+            </section>
     
-            <div class="flex flex-col items-center gap-y-1">
-                <span class="text-xs text-cyan-950 font-semibold">12.15 pm</span>
-                <!-- <span class="bg-cyan-800 py-1 px-2 rounded-md text-cyan-100 text-xs font-medium">10</span> -->
-            </div>
-        </section>
-
-        <section class="bg-gray-100 p-5 flex justify-start items-center gap-x-4 hover: cursor-pointer hover:bg-cyan-900/10">
-            <div>
-                <img class="rounded-full" src="https://ui-avatars.com/api/?name=Shajid&background=random&color=fff">
-            </div>
+            <section class="bg-gray-100 p-5 flex justify-start items-center gap-x-4 hover: cursor-pointer hover:bg-cyan-900/10">
+                <div>
+                    <img class="rounded-full" src="https://ui-avatars.com/api/?name=FullStackEngineers&background=random&color=fff">
+                </div>
+        
+                <div class="flex flex-col flex-1">
+                    <span class="font-bold text-lg">Full Stack Engineers</span>
+                    <span class="font-bold text-sm text-green-600 antialiased">~ Vasan & Rosini typing here...</span>
+                </div>
+        
+                <div class="flex flex-col items-center gap-y-1">
+                    <span class="text-xs text-cyan-950 font-semibold">9:15 PM</span>
+                    <span class="bg-cyan-800 py-1 px-2 rounded-md text-cyan-100 text-xs font-medium">5</span>
+                </div>
+            </section>
     
-            <div class="flex flex-col flex-1">
-                <span class="font-bold text-lg">Bearcin Sweety</span>
-                <span class="font-thin text-sm">Reacted 🤣 to "sticker"</span>
-            </div>
+            <section class="bg-gray-100 p-5 flex justify-start items-center gap-x-4 hover: cursor-pointer hover:bg-cyan-900/10 ease-in-out duration-700">
+                <div>
+                    <img class="rounded-full ring-offset-2 ring-2 ring-cyan-800" src="https://ui-avatars.com/api/?name=InternsGang&background=random&color=fff">
+                </div>
+        
+                <div class="flex flex-col flex-1">
+                    <span class="font-bold text-lg">Interns Gang 🚀</span>
+                    <span class="font-thin text-sm antialiased">Mushkir: 😂😂😂😂</span>
+                </div>
+        
+                <div class="flex flex-col items-center gap-y-1">
+                    <span class="text-xs text-cyan-950 font-semibold">9:10 PM</span>
+                    <span class="bg-cyan-800 py-1 px-2 rounded-md text-cyan-100 text-xs font-medium">10+</span>
+                </div>
+            </section>
     
-            <div class="flex flex-col items-center gap-y-1">
-                <span class="text-xs text-cyan-950 font-semibold">12.15 pm</span>
-                <!-- <span class="bg-cyan-800 py-1 px-2 rounded-md text-cyan-100 text-xs font-medium">10</span> -->
-            </div>
-        </section>
-
-        <section class="bg-gray-100 p-5 flex justify-start items-center gap-x-4 hover: cursor-pointer hover:bg-cyan-900/10">
-            <div>
-                <img class="rounded-full ring-offset-2 ring-2 ring-cyan-800" src="https://ui-avatars.com/api/?name=Shajid&background=random&color=fff">
-            </div>
+            <section class="bg-gray-100 p-5 flex justify-start items-center gap-x-4 hover: cursor-pointer hover:bg-cyan-900/10 ease-in-out duration-700">
+                <div>
+                    <img class="rounded-full ring-offset-2 ring-2 ring-cyan-800" src="https://ui-avatars.com/api/?name=Abi&background=random&color=fff">
+                </div>
+        
+                <div class="flex flex-col flex-1">
+                    <span class="font-bold text-lg">Abirami</span>
+                    <div class="flex items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="blue" d="m10 16.4l-4-4L7.4 11l2.6 2.6L16.6 7L18 8.4l-8 8Z"/></svg>
+                        <span class="font-thin text-sm antialiased">Howdy? Hope y'all good?</span>
+                    </div>
+                </div>
+        
+                <div class="flex flex-col items-center gap-y-1">
+                    <span class="text-xs text-cyan-950 font-semibold">8:10 PM</span>
+                    <!-- <span class="bg-cyan-800 py-1 px-2 rounded-md text-cyan-100 text-xs font-medium">10</span> -->
+                </div>
+            </section>
     
-            <div class="flex flex-col flex-1">
-                <span class="font-bold text-lg">Swetha</span>
-                <span class="font-thin text-sm">You reacted 🙌🏼 to "ohh ok let me try"</span>
-            </div>
+            <section class="bg-gray-100 p-5 flex justify-start items-center gap-x-4 hover: cursor-pointer hover:bg-cyan-900/10 ease-in-out duration-700">
+                <div>
+                    <img class="rounded-full" src="https://ui-avatars.com/api/?name=Bearcin&background=random&color=fff">
+                </div>
+        
+                <div class="flex flex-col flex-1">
+                    <span class="font-bold text-lg">Bearcin Sweety</span>
+                    <span class="font-thin text-sm ease-in-out duration-700">Reacted 🤣 to "sticker"</span>
+                </div>
+        
+                <div class="flex flex-col items-center gap-y-1">
+                    <span class="text-xs text-cyan-950 font-semibold">7:25 PM</span>
+                    <!-- <span class="bg-cyan-800 py-1 px-2 rounded-md text-cyan-100 text-xs font-medium">10</span> -->
+                </div>
+            </section>
     
-            <div class="flex flex-col items-center gap-y-1">
-                <span class="text-xs text-cyan-950 font-semibold">7:05 PM</span>
-                <!-- <span class="bg-cyan-800 py-1 px-2 rounded-md text-cyan-100 text-xs font-medium">10</span> -->
-            </div>
-        </section>
+            <section class="bg-gray-100 p-5 flex justify-start items-center gap-x-4 hover: cursor-pointer hover:bg-cyan-900/10 ease-in-out duration-700">
+                <div>
+                    <img class="rounded-full ring-offset-2 ring-2 ring-cyan-800" src="https://ui-avatars.com/api/?name=SW&background=random&color=fff">
+                </div>
+        
+                <div class="flex flex-col flex-1">
+                    <span class="font-bold text-lg">Swetha</span>
+                    <span class="font-thin text-sm antialiased">You reacted 🙌🏼 to "ohh ok let me try"</span>
+                </div>
+        
+                <div class="flex flex-col items-center gap-y-1">
+                    <span class="text-xs text-cyan-950 font-semibold antialiased">7:05 PM</span>
+                    <!-- <span class="bg-cyan-800 py-1 px-2 rounded-md text-cyan-100 text-xs font-medium">10</span> -->
+                </div>
+            </section>
+        </div>
     </main>
 
 </body>
