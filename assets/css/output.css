@@ -655,6 +655,38 @@ video {
   top: 2.5rem;
 }
 
+.right-10 {
+  right: 2.5rem;
+}
+
+.left-10 {
+  left: 2.5rem;
+}
+
+.left-0 {
+  left: 0px;
+}
+
+.left-\[-10px\] {
+  left: -10px;
+}
+
+.left-\[-30px\] {
+  left: -30px;
+}
+
+.left-\[-50px\] {
+  left: -50px;
+}
+
+.left-\[-49px\] {
+  left: -49px;
+}
+
+.left-\[-40px\] {
+  left: -40px;
+}
+
 .isolate {
   isolation: isolate;
 }
@@ -849,6 +881,62 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-1 {
+  width: 0.25rem;
+}
+
+.w-2 {
+  width: 0.5rem;
+}
+
+.w-10 {
+  width: 2.5rem;
+}
+
+.w-20 {
+  width: 5rem;
+}
+
+.w-36 {
+  width: 9rem;
+}
+
+.w-\[140px\] {
+  width: 140px;
+}
+
+.w-\[139px\] {
+  width: 139px;
+}
+
+.w-\[138px\] {
+  width: 138px;
+}
+
+.w-\[135px\] {
+  width: 135px;
+}
+
+.w-\[132px\] {
+  width: 132px;
+}
+
+.w-\[130px\] {
+  width: 130px;
+}
+
+.w-\[129px\] {
+  width: 129px;
+}
+
+.w-\[128px\] {
+  width: 128px;
+}
+
+.w-\[-128px\] {
+  width: -128px;
 }
 
 .max-w-\[350px\] {
@@ -2008,6 +2096,10 @@ video {
 .bg-clip-text {
   -webkit-background-clip: text;
           background-clip: text;
+}
+
+.bg-center {
+  background-position: center;
 }
 
 .bg-repeat {
