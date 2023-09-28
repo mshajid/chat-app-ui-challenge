@@ -1975,6 +1975,10 @@ video {
   background-color: rgb(30 41 59 / var(--tw-bg-opacity));
 }
 
+.bg-sky-700\/50 {
+  background-color: rgb(3 105 161 / 0.5);
+}
+
 .bg-gradient-to-r {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
@@ -2911,6 +2915,14 @@ video {
 
 .hover\:ring-green-900\/80:hover {
   --tw-ring-color: rgb(20 83 45 / 0.8);
+}
+
+.hover\:ring-sky-900\/80:hover {
+  --tw-ring-color: rgb(12 74 110 / 0.8);
+}
+
+.hover\:ring-sky-600\/80:hover {
+  --tw-ring-color: rgb(2 132 199 / 0.8);
 }
 
 .before\:hover\:text-center:hover::before {
