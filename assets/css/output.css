@@ -2123,6 +2123,14 @@ video {
   padding-top: 2rem;
 }
 
+.pt-2 {
+  padding-top: 0.5rem;
+}
+
+.pb-2 {
+  padding-bottom: 0.5rem;
+}
+
 .text-left {
   text-align: left;
 }
@@ -2773,6 +2781,19 @@ video {
 
 .hover\:bg-slate-600\/20:hover {
   background-color: rgb(71 85 105 / 0.2);
+}
+
+.hover\:bg-black:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-gray-200\/20:hover {
+  background-color: rgb(229 231 235 / 0.2);
+}
+
+.hover\:bg-gray-500\/20:hover {
+  background-color: rgb(107 114 128 / 0.2);
 }
 
 .hover\:font-bold:hover {
