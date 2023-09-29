@@ -1399,8 +1399,14 @@ video {
   justify-items: stretch;
 }
 
-.gap-0 {
-  gap: 0px;
+.gap-x-0 {
+  -moz-column-gap: 0px;
+       column-gap: 0px;
+}
+
+.gap-x-0\.5 {
+  -moz-column-gap: 0.125rem;
+       column-gap: 0.125rem;
 }
 
 .gap-x-1 {
@@ -1434,16 +1440,6 @@ video {
 
 .gap-y-2 {
   row-gap: 0.5rem;
-}
-
-.gap-x-0 {
-  -moz-column-gap: 0px;
-       column-gap: 0px;
-}
-
-.gap-x-0\.5 {
-  -moz-column-gap: 0.125rem;
-       column-gap: 0.125rem;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
@@ -2871,6 +2867,10 @@ video {
 
 .hover\:bg-gray-500\/20:hover {
   background-color: rgb(107 114 128 / 0.2);
+}
+
+.hover\:bg-gray-800\/100:hover {
+  background-color: rgb(31 41 55 / 1);
 }
 
 .hover\:bg-gray-900\/100:hover {
