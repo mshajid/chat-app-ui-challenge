@@ -2383,6 +2383,66 @@ video {
   padding-top: 2rem;
 }
 
+.pl-2 {
+  padding-left: 0.5rem;
+}
+
+.pr-6 {
+  padding-right: 1.5rem;
+}
+
+.pr-4 {
+  padding-right: 1rem;
+}
+
+.pr-\[18px\] {
+  padding-right: 18px;
+}
+
+.pr-\[19px\] {
+  padding-right: 19px;
+}
+
+.pr-\[15px\] {
+  padding-right: 15px;
+}
+
+.pr-\[16px\] {
+  padding-right: 16px;
+}
+
+.pr-\[9px\] {
+  padding-right: 9px;
+}
+
+.pr-\[200px\] {
+  padding-right: 200px;
+}
+
+.pr-\[50px\] {
+  padding-right: 50px;
+}
+
+.pr-\[25px\] {
+  padding-right: 25px;
+}
+
+.pr-\[28px\] {
+  padding-right: 28px;
+}
+
+.pr-\[30px\] {
+  padding-right: 30px;
+}
+
+.pr-\[35px\] {
+  padding-right: 35px;
+}
+
+.pr-2 {
+  padding-right: 0.5rem;
+}
+
 .text-left {
   text-align: left;
 }
