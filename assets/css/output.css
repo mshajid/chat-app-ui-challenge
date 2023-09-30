@@ -839,8 +839,8 @@ video {
   height: 1.25rem;
 }
 
-.h-\[120px\] {
-  height: 120px;
+.h-\[110px\] {
+  height: 110px;
 }
 
 .h-\[32px\] {
@@ -861,18 +861,6 @@ video {
 
 .h-px {
   height: 1px;
-}
-
-.h-\[110px\] {
-  height: 110px;
-}
-
-.h-\[100px\] {
-  height: 100px;
-}
-
-.h-\[105px\] {
-  height: 105px;
 }
 
 .w-16 {
@@ -899,8 +887,8 @@ video {
   width: 64px;
 }
 
-.w-\[950px\] {
-  width: 950px;
+.w-\[850px\] {
+  width: 850px;
 }
 
 .w-\[auto\] {
@@ -909,18 +897,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-\[9\] {
-  width: 9;
-}
-
-.w-\[900px\] {
-  width: 900px;
-}
-
-.w-\[850px\] {
-  width: 850px;
 }
 
 .max-w-\[250px\] {
@@ -1003,28 +979,12 @@ video {
   cursor: auto;
 }
 
-.cursor-pointer {
-  cursor: pointer;
-}
-
-.cursor-move {
-  cursor: move;
-}
-
-.cursor-all-scroll {
-  cursor: all-scroll;
-}
-
-.cursor-crosshair {
-  cursor: crosshair;
-}
-
-.cursor-grab {
-  cursor: grab;
-}
-
 .cursor-grabbing {
   cursor: grabbing;
+}
+
+.cursor-pointer {
+  cursor: pointer;
 }
 
 .touch-auto {
