@@ -863,6 +863,18 @@ video {
   height: 1px;
 }
 
+.h-\[110px\] {
+  height: 110px;
+}
+
+.h-\[100px\] {
+  height: 100px;
+}
+
+.h-\[105px\] {
+  height: 105px;
+}
+
 .w-16 {
   width: 4rem;
 }
@@ -993,6 +1005,26 @@ video {
 
 .cursor-pointer {
   cursor: pointer;
+}
+
+.cursor-move {
+  cursor: move;
+}
+
+.cursor-all-scroll {
+  cursor: all-scroll;
+}
+
+.cursor-crosshair {
+  cursor: crosshair;
+}
+
+.cursor-grab {
+  cursor: grab;
+}
+
+.cursor-grabbing {
+  cursor: grabbing;
 }
 
 .touch-auto {
