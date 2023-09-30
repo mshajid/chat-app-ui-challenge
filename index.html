@@ -10,12 +10,12 @@
 </head>
 <body>
     <main>
-        <div class="p-10 bg-slate-800 mb-5 flex flex-col justify-center items-center gap-y-2 bg-gradient-to-r from-cyan-900 to to-blue-950">
+        <!-- <div class="p-10 bg-slate-800 mb-5 flex flex-col justify-center items-center gap-y-2 bg-gradient-to-r from-cyan-900 to to-blue-950">
             <h1 class="text-center font-semibold text-4xl text-red-100">Yoohoo Chat App (UI Challenge)</h1>
             <span class="text-white font-light" >We've to create WhatsApp UI with our own imaginary App using HTML / Tailwind CSS 
                 <a href="https://github.com/mshajid/chat-app-ui-challenge" target="_blank" class="p-1 rounded-md bg-cyan-700 hover:bg-cyan-800 ml-2">Source code</a> 
             </span>
-        </div>
+        </div> -->
         
         
         <div class="max-w-md mx-auto block">
@@ -57,7 +57,7 @@
             </section>
             <!-- * Second header ends here * -->
             
-            <section class="overscroll-auto overflow-y-scroll w-[auto] h-[500px] no-scrollbar">
+            <section class="overscroll-auto overflow-y-scroll w-[auto] h-[500px] no-scrollbar relative">
                 <!-- ! Anbu Card -->
                 <a href="./anbu.html">
                     <section class="bg-gray-100 p-5 flex justify-start items-center gap-x-4 hover:cursor-pointer hover:bg-cyan-900/10 ease-in-out duration-700" title="Check messages here">
@@ -530,7 +530,18 @@
                         </div>
                     </section>
                 </a>
+
+                
+                <div class="sticky bottom-0">
+                    <div class="w-12 h-12 bg-cyan-900 absolute right-0 mx-5 bottom-[50px] rounded flex justify-center items-center  shadow-sm shadow-stone-800">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24">
+                            <path fill="white" d="M6 14h8v-2H6v2Zm0-3h12V9H6v2Zm0-3h12V6H6v2ZM2 22V4q0-.825.588-1.413T4 2h16q.825 0 1.413.588T22 4v12q0 .825-.588 1.413T20 18H6l-4 4Zm3.15-6H20V4H4v13.125L5.15 16ZM4 16V4v12Z"/>
+                        </svg>
+                    </div>
+                </div>
+                
             </section>
+            
             
         </div>
     </main>
