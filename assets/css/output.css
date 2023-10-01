@@ -954,6 +954,14 @@ video {
   height: 75vh;
 }
 
+.h-\[10vh\] {
+  height: 10vh;
+}
+
+.h-\[20vh\] {
+  height: 20vh;
+}
+
 .w-1 {
   width: 0.25rem;
 }
@@ -2405,6 +2413,16 @@ video {
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
+}
+
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
 }
 
 .pb-0 {
