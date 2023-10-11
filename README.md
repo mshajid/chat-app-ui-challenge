@@ -2,12 +2,12 @@
 
 |Table of Contents|  |
 |--|--|
-| [Project Description](#project-description) |
-| [Demo & Technology Stacks](#demo--technology-stacks) |  
-| [Screenshot & Walkthroughs](#screenshots--walkthroughs)|
-| [Features Added](#features-added) |  
-| [Internship](#internship) |  
-| [License](#license) |  
+| [Project Description](#project-description) | ✅ |
+| [Demo & Technology Stacks](#demo--technology-stacks) | ✅ |
+| [Screenshot & Walkthroughs](#screenshots--walkthroughs) | ✅ |
+| [Features Added](#features-added) | ✅ |
+| [Internship](#internship) | ✅ |
+| [License](#license) | ✅ |
 
 ### Project Description
 This project (challenge) assigned by Cyberdude Networks Pvt Ltd while I'm working as an Full Stack Engineer Inten. This challenge gave me immense of confident working on UI as I wish. Check it out below **Live Link** below for your convenience. 
