@@ -1,13 +1,13 @@
 # WhatsApp UI Challenge By Shajid 🚀
 
-- [WhatsApp UI Challenge By Shajid 🚀](#whatsapp-ui-challenge-by-shajid-)
-    - [Project Description](#project-description)
-    - [Demo \& Technology Stacks](#demo--technology-stacks)
-    - [Screenshots \& Walkthroughs](#screenshots--walkthroughs)
-    - [Features Added](#features-added)
-    - [Internship](#internship)
-
-<hr>
+|Table of Contents|  |
+|--|--|
+| [Project Description](#project-description) |  |
+| [Demo & Technology Stacks](#demo--technology-stacks) |  |
+| [Screenshot & Walkthroughs](#screenshots--walkthroughs) |  |
+| [Features Added](#features-added) |  |
+| [Internship](#internship) |  |
+| [License](#license) |  |
 
 ### Project Description
 This project (challenge) assigned by Cyberdude Networks Pvt Ltd while I'm working as an Full Stack Engineer Inten. This challenge gave me immense of confident working on UI as I wish. Check it out below **Live Link** below for your convenience. 
@@ -52,3 +52,5 @@ This internship is provided by CyberDude Networks Pvt. Ltd. as part of the 6-Mon
 
 <hr>
 
+### License
+MIT
