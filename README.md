@@ -1,57 +1,65 @@
 # WhatsApp UI Challenge By Shajid 🚀
 
-|Table of Contents|  |
-|--|--|
-| [Project Description](#project-description) | ✅ |
-| [Demo & Technology Stacks](#demo--technology-stacks) | ✅ |
-| [Screenshot & Walkthroughs](#screenshots--walkthroughs) | ✅ |
-| [Features Added](#features-added) | ✅ |
-| [Internship](#internship) | ✅ |
-| [License](#license) | ✅ |
+Cyberdude Networks Pvt. Ltd Internship Project # 3 - **WhatsApp UI Challenge**.
 
-### Project Description
+## Table of Contents
+- [WhatsApp UI Challenge By Shajid 🚀](#whatsapp-ui-challenge-by-shajid-)
+  - [Table of Contents](#table-of-contents)
+  - [Description](#description)
+  - [Demo](#demo)
+  - [Internship](#internship)
+  - [Technologies Used](#technologies-used)
+  - [Features](#features)
+  - [Contributing](#contributing)
+  - [License](#license)
+  - [Acknowledgments](#acknowledgments)
+
+## Description
+
 This project (challenge) assigned by Cyberdude Networks Pvt Ltd while I'm working as an Full Stack Engineer Inten. This challenge gave me immense of confident working on UI as I wish. Check it out below **Live Link** below for your convenience. 
 
 I have added the tools I used while I build this UI. 
 <br>
+
+
+## Demo
+
 ✨**Live Link is Here**: https://mshajid.github.io/chat-app-ui-challenge/
 
-<hr>
+## Internship
 
-asdasdasd
-### Demo & Technology Stacks
+This internship is provided by [CyberDude Networks Pvt. Ltd.](https://youtube.com/cyberdudenetworks) as part of the 6-Month Free Internship program, a skill development initiative organized to enhance participants' skills. Mentoring was provided by [Mr. Anbuselvan Rocky](https://instagram.com/anbuselvanrocky). For more information, [you can contact CyberDude Networks here](https://cyberdudenetworks.com).
 
-| 🚀 Index | 🎆 Description |
-|--|--|
-| **License** |MIT  |
-| **Stacks** |HTML & Tailwind CSS  |
-| **Author** |M. Shajid Shafee  |
-| **Live Link** | [Click Here](https://mshajid.github.io/chat-app-ui-challenge/) |
-| **Color Pallets** | [Click Here](https://colorhunt.co/) |
-| **Mobile Responsive** | Yes (<600px) |
-| **For Emojis** | [Click Here](https://emojipedia.org/) |
+## Technologies Used
 
-<hr>
+HTML 5 | Tailwind CSS | Tailwind CLI
 
-### Screenshots & Walkthroughs
+## Features
 
-![Whatsapp UI Challenge walkthrough](assets/images/Chats%20_%20Yoohoo%20Chat%20App.gif)
-
-<hr>
-
-### Features Added
 - Scroll X & Y Axis scroll on status and chats.
 - Dark mode enabled (manually without tailwind)
 - Status rings.
 - Special chats.
 - Floating icons.
 
-<hr>
 
-### Internship
-This internship is provided by CyberDude Networks Pvt. Ltd. as part of the 6-Month Free Internship program, a skill development initiative organized to enhance participants' skills. Mentoring was provided by Mr. Anbuselvan Rocky. For more information, you can contact CyberDude Networks here.
+## Contributing
 
-<hr>
+Feel free to contribute to this project by "Forking" this repo, and Add a PR for any additional features that can be added this UI Challenge. 
 
-### License
+## License
+
 MIT
+
+## Acknowledgments
+
+| Resources | Links |
+|--|--|
+| Color Pallet | colorhunt.co |
+
+
+---
+
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+
+
