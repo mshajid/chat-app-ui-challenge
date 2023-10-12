@@ -25,6 +25,9 @@ I have added the tools I used while I build this UI.
 ## Demo
 
 ✨**Live Link is Here**: https://mshajid.github.io/chat-app-ui-challenge/
+<br>
+<br>
+![Walthrough demo](assets/images/Chats%20_%20Yoohoo%20Chat%20App.gif)
 
 ## Internship
 
